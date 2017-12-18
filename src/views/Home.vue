@@ -25,6 +25,20 @@
           </div>
         </section>
 
+        <section class="p-section">
+          <h2 class="p-section__ttl">スムーススクロール</h2>
+          <div class="p-section__body">
+            <MySmoothScroll/>
+          </div>
+        </section>
+
+        <section class="p-section">
+          <h2 class="p-section__ttl">モーダル</h2>
+          <div class="p-section__body">
+            <MyModal/>
+          </div>
+        </section>
+
       </div>
     </main>
     <MyFooter class="l-wrapper__footer" />
@@ -38,6 +52,8 @@ import MyFooter from '@/components/MyFooter'
 import MyAccordion from '@/components/MyAccordion'
 import MyAccordionLoop from '@/components/MyAccordionLoop'
 import MyTabContents from '@/components/MyTabContents'
+import MySmoothScroll from '@/components/MySmoothScroll'
+import MyModal from '@/components/MyModal'
 
 export default {
   data () {
@@ -52,7 +68,9 @@ export default {
     MyFooter,
     MyAccordion,
     MyAccordionLoop,
-    MyTabContents
+    MyTabContents,
+    MySmoothScroll,
+    MyModal
   }
 }
 </script>
